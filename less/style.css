@@ -1,0 +1,281 @@
+*,
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('fonts/MyriadPro-Regular.eot');
+  src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Trocchi-Regular';
+  src: url('fonts/Trocchi-Regular.eot');
+  src: local('☺'), url('fonts/Trocchi-Regular.woff') format('woff'), url('fonts/Trocchi-Regular.ttf') format('truetype'), url('fonts/Trocchi-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: rgba(26, 26, 26, 0.86);
+  line-height: 1.18;
+}
+header {
+  background-image: url(../img/IMG_6141.jpg);
+  background-size: cover;
+  max-width: 800px;
+  height: 900px;
+  margin: auto;
+  color: #d5d5d5;
+  font-family: Trocchi-Regular;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60%;
+  font-size: 70px;
+  font-weight: normal;
+  letter-spacing: 20px;
+  font-family: Trocchi-Regular;
+}
+header h1 span {
+  margin-right: 30px;
+}
+header p {
+  text-align: center;
+  width: 540px;
+  font-size: 13px;
+  margin: 30px auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+section {
+  max-width: 800px;
+  background-color: black;
+  margin: 5px auto;
+  color: #d5d5d5;
+  text-align: center;
+  padding: 30px;
+}
+section h4 {
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 9px;
+}
+section p {
+  max-width: 546px;
+  font-size: 13px;
+  text-align: center;
+  margin: 30px  auto;
+}
+.sec-0 img {
+  max-width: 250px;
+  padding: 30px 0;
+}
+.sec-0 p {
+  max-width: 300px ;
+  text-align: left;
+  margin: 0;
+}
+.sec-0 .flex div {
+  padding-top: 80px;
+}
+.sec-1 {
+  background-image: url(../img/IMG_7099.JPEG);
+  background-size: cover;
+}
+.sec-1 img {
+  max-width: 250px;
+  padding: 30px 0;
+}
+.sec-11 .flex {
+  padding: 40px 0;
+}
+.sec-11 p {
+  margin: 0;
+  max-width: 310px;
+  text-align-last: left;
+}
+.sec-2 {
+  background-image: url(../img/IMG_7061.jpg);
+  height: 250px;
+  background-size: 100%;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+}
+.sec-3 {
+  background-image: url(../img/photo_2022-01-26\ 23.24.05.jpeg);
+  height: 700px;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.sec-4 img {
+  max-width: 350px;
+  padding: 70px 0 70px 0;
+}
+.sec-4 hr {
+  background-color: aliceblue;
+  height: 2px;
+  border: none;
+}
+.sec-4 p {
+  font-size: 25px;
+  letter-spacing: 9px;
+  margin: 10px auto;
+}
+.sec-4 .hr0 {
+  -webkit-transform: rotate(46deg);
+  -moz-transform: rotate(46deg);
+  -ms-transform: rotate(46deg);
+  -o-transform: rotate(46deg);
+  color: aliceblue;
+  max-width: 153px;
+  top: 88px;
+  left: 29.6%;
+  position: relative;
+  height: 2px;
+}
+.sec-4 .hr1 {
+  -webkit-transform: rotate(285deg);
+  -moz-transform: rotate(285deg);
+  -ms-transform: rotate(285deg);
+  -o-transform: rotate(285deg);
+  color: aliceblue;
+  max-width: 150px;
+  top: 107px;
+  right: -59.7%;
+  position: relative;
+  height: 2px;
+}
+.sec-4 .hr2 {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  color: aliceblue;
+  max-width: 150px;
+  bottom: -340.2px;
+  right: -48.2%;
+  height: 2px;
+  position: relative;
+}
+.sec-4 .hr3 {
+  -webkit-transform: rotate(116deg);
+  -moz-transform: rotate(116deg);
+  -ms-transform: rotate(116deg);
+  -o-transform: rotate(116deg);
+  color: aliceblue;
+  max-width: 150px;
+  bottom: -19.7em;
+  left: 28.4%;
+  height: 2px;
+  position: relative;
+}
+.sec-4 .ph {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.sec-4 .pt {
+  font-size: 13px;
+  letter-spacing: normal;
+  max-width: 250px;
+  text-align: left;
+}
+.sec-4 .flex-1 {
+  position: relative;
+}
+.sec-4 .flex-1 div:last-child {
+  position: absolute;
+  top: -11px;
+  right: -16px;
+}
+.sec-4 .flex-1 div:last-child .pt {
+  max-width: 190px;
+  margin-left: 30px;
+}
+.sec-4 .flex-1 div:first-child {
+  position: absolute;
+  top: -14px;
+  left: 3px;
+}
+.sec-4 .flex-2 {
+  position: relative;
+}
+.sec-4 .flex-2 div:last-child {
+  position: absolute;
+  top: -81px;
+  right: -16px;
+}
+.sec-4 .flex-2 div:last-child .pt {
+  max-width: 190px;
+  margin-right: 70px;
+}
+.sec-4 .flex-2 div:first-child {
+  position: absolute;
+  top: -74px;
+  left: 3px;
+}
+.sec-4 .flex-2 div:first-child .ph {
+  text-align: right;
+}
+.sec-4 .flex-2 div:first-child hr {
+  margin-left: auto ;
+}
+.sec-5 {
+  background-image: url(../img/IMG_7062.jpg);
+  height: 500px;
+  background-size: cover;
+}
+.sec-6 p {
+  margin: 0;
+  letter-spacing: 3px;
+}
+.sec-6 p:first-child {
+  font-size: 25px;
+  text-align: left;
+  margin: 150px auto;
+  max-width: 250px;
+}
+.sec-6 p:last-child {
+  font-size: 17px;
+  max-width: 100%;
+  letter-spacing: 2px;
+}
+.sec-7 .fa-facebook {
+  font-size: 20px;
+}
+.sec-7 p {
+  margin: 0;
+}
+.sec-7 div:first-child {
+  text-align: right;
+}
+.sec-7 div:first-child p {
+  margin-left: auto;
+  max-width: 100px;
+  font-size: 18px;
+}
+.sec-7 div:last-child {
+  margin-left: auto;
+}
+.sec-7 div:last-child a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sec-7 div:last-child p {
+  text-align: right;
+  margin-left: auto;
+}
