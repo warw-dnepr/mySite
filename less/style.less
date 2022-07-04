@@ -17,6 +17,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+h1,h4{
+   font-family:Trocchi-Regular;
+}
+p{
+   font-family: MyriadPro-Regular;
+}
 body{
    background-color: rgba(26, 26, 26, 0.86);
    line-height: 1.18;
@@ -44,7 +50,7 @@ header{
    }
    p{
       text-align: center;
-      width: 540px;
+      max-width: 540px;
       font-size: 13px;
       margin: 30px auto;
    }
@@ -80,7 +86,7 @@ section {
    p{
       max-width:300px ;
       text-align: left;
-      margin: 0;
+      margin-left: 5px;
       margin-top: 20px;
    }
    .flex{
@@ -133,9 +139,10 @@ p{
       border: none;
    }
    p{
-      font-size: 25px;
+      font-size: 20px;
       letter-spacing: 9px;
       margin: 10px auto;
+      font-family:Trocchi-Regular;
    }
    .hr0 {   
       -webkit-transform: rotate(46deg);      
@@ -144,7 +151,7 @@ p{
       -o-transform: rotate(46deg);
       color: aliceblue;
       max-width: 153px;
-      top: 88px;
+      top: 89px;
       left: 29.6%;
       position: relative;
       height: 2px;
@@ -169,7 +176,7 @@ p{
    -o-transform: rotate(30deg);
    color: aliceblue;
    max-width: 150px;
-   bottom: -340.2px;
+   bottom: -340.1px;
    right: -48.2%;
    height: 2px;
    position: relative;
@@ -182,7 +189,7 @@ p{
    color: aliceblue;
    max-width: 150px;
    bottom: -19.7em;
-   left: 28.4%;
+   left: 28.5%;
    height: 2px;
    position: relative;
 
@@ -241,6 +248,41 @@ p{
    }
 }
 }
+.sec-4-1{
+   display: none;
+   div{
+      margin-top: 40px;
+   }
+   img{
+      max-width: 350px;
+      padding: 70px 0 70px 0;
+   }
+   hr{
+      background-color: aliceblue;
+      height: 2px;
+      border: none;
+   }
+   p{
+      font-size: 20px;
+      letter-spacing: 9px;
+      margin: 10px auto;
+      font-family:Trocchi-Regular;
+   }
+   .ph{
+      font-size: 15px;
+      letter-spacing: normal;
+      text-align: left;
+      margin-top: 10px;
+   }
+   .pt{
+      font-size: 13px;
+      letter-spacing: normal;
+      max-width: 250px;
+      text-align: left;
+   }
+   
+
+}
 .sec-5{
    background-image: url(../img/IMG_7062.jpg);
    height: 500px;
@@ -250,6 +292,7 @@ p{
    p{
       margin: 0;
       letter-spacing: 3px;
+      font-family:Trocchi-Regular;
    }
    p:first-child{
       font-size: 25px;
@@ -291,4 +334,105 @@ p{
 }
 
 }
+}
+///////////////adaption screen////////////
+
+
+@media screen and(max-width:490px) {
+   .sec-1{
+      img{
+         max-width: 150px !important;
+   
+      }
+     
+   }
+}
+@media screen and(max-width:600px) {
+   .sec-1{
+      img{
+         max-width: 200px;
+         padding: 30px 0;
+   
+      }
+     
+   }
+}
+@media screen and(max-width:617px) {
+   .sec-0{
+      .flex{
+         display: block;
+         div{
+            padding-top: 0;
+         }
+      }
+      img{
+         padding-top: 30px ;
+      }
+   
+      p{
+         max-width:400px ;
+         text-align: left;
+         margin: 10px auto;
+
+      }
+        
+   }
+}
+@media screen and(max-width:670px) {
+   .sec-11{
+      .flex{
+         display: block;
+      }
+      p{
+         max-width:300px ;
+         text-align: left;
+         margin: 10px auto;
+
+      }
+        
+   }
+}
+@media screen and(max-width:680px) {
+   .sec-11{
+   
+      p{
+         max-width:300px ;
+         text-align: left;
+         margin: 10px auto;
+
+      }
+        
+   }
+   .sec-4-1{
+      display: block;
+      img{
+         padding: 20px 0;
+      }
+      .flex{
+         display: block;
+      }
+      .ph{
+         font-size: 15px;
+         letter-spacing: normal;
+         text-align: center;
+      }
+      .pt{
+         font-size: 13px;
+         letter-spacing: normal;
+         max-width: 350px;
+         text-align: center;
+      }
+      hr{
+         margin: auto;
+      }
+   }
+}
+@media screen and(max-width:800px) {
+   .sec-4{
+      display: none;
+   }
+   .sec-4-1{
+      display: block;
+   }
+
 }
